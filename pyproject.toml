@@ -1,0 +1,12 @@
+[project]
+name = "assign"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "cylp>=0.93.1",
+    "glpk>=0.4.8",
+    "matplotlib>=3.10.3",
+    "pyomo>=6.9.2",
+]
