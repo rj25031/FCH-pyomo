@@ -143,7 +143,7 @@ for machine in machines:
     print(f"Total time on {machine}: {total_time} minutes\n")
 
 plt.figure(figsize=(10, 6))
-colors = {'LaserCutter': 'skyblue', 'CNC_Mill': 'lightgreen', 'PaintStation': 'lightcoral'}
+colors = {'LaserCutter': 'red', 'CNC_Mill': 'green', 'PaintStation': 'blue'}
 for (job, task) in sorted(model.JobToTask):
     start = model.startTime[job, task].value
     end = model.endTime[job, task].value
