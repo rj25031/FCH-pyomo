@@ -100,7 +100,7 @@ python fcs_model.py
 ## 📁 Project Structure
 
 ```
-├── fcs_model.py          # Main Pyomo model
+├── main.py          # Main Pyomo model
 ├── requirements.txt      # Dependencies
 ├── README.md             # Project documentation
 └── .venv/                # Virtual environment (not committed)
@@ -123,7 +123,7 @@ Ensure the solver is installed and accessible in your system PATH.
 
 - Pyomo documentation: https://pyomo.readthedocs.io
 - COIN-OR CBC: https://github.com/coin-or/Cbc
-- Gurobi: https://www.gurobi.com/
+
 
 ---
 
