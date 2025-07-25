@@ -45,7 +45,8 @@ uv pip install -r requirements.txt
 
 # 5. Install solver (e.g., GLPK or CBC)
 sudo apt-get update
-sudo apt-get install -y glpk-utils coinor-cbc
+sudo apt-get install -y glpk-utils coinor-cbc python3-dev build-essential libglpk-dev
+
 ```
 
 ---
